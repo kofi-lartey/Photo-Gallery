@@ -1,128 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Exile&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
 * {
-    /* background-color: aquamarine; */
     padding: 0;
     margin: 0;
-    
-    /* background-repeat: no-repeat; */
 }
 
-.container{
-    display: flex;
-    flex-direction: row;
-    /* justify-content: center; */
-    align-items: center;
-    align-items: flex-start;
-}
 
-body {
-    background-image: url(../images/photo4.jpg);
+header{
+    background-image: url(../images/camera2.jpg);
     background-position: center;
     background-size: cover;
-    background-attachment: fixed;
-    height: 600px;
-    background-repeat: no-repeat;
-}
-
-span {
-    color: white;
-    font-size: 25px;
-    font-weight: 700;
-    cursor: pointer;
-}
-
-span:hover {
-    color: #966551;
-}
-
-header {
-    background-color: #5c5b5b;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 60px;
     justify-content: space-evenly;
-    height: 50px;
-    /* border-radius: 3px; */
-    font-family: sans-serif;
-    /* margin: 5px; */
+    background-color: brown;
+    color: white;
+    height: 55px;
+}
+
+span {
+    font-size: 23px;
+    font-family: "Exile", system-ui;
 }
 
 .box {
+    list-style-type: none;
     display: flex;
-    gap: 70px;
+    gap: 120px;
 }
 
 .box li {
-    list-style-type: none;
-    color: white;
+    text-decoration: none;
 }
- a:hover {
-    color: #966551;
- }
 
 header a {
     text-decoration: none;
     color: white;
+    transition: 0.4s ease-in-out;
+ 
 }
 
-.Header-text {
-    font-size: 30px;
-    margin: 100px;
-    background-color: transparent;
-    border-radius: 20px;
-    padding: 0.5rem 4rem;
+header a:hover {
+    color: blue;
+    font-family: "Exile", system-ui;
+    transition: 0.5s ease-in-out;
+  
+}
+
+header button {
     border: 1px solid white;
-    text-wrap: wrap;
-    /* align-content: baseline; */
-    
+    border-radius: 10px;
+    padding: 5px;
+    background-color: transparent;
+    font-family: "Roboto Serif", serif;
 }
 
-.Header-text button {
+.container {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/photo4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.top-content {
+    margin-left: 19.5%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+div .text-1 {
+    font-size: 60px;
+    height: 220px;
+}
+
+div button {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
     background-color: transparent;
-    border-radius: 20px;
-    padding: 10px;
-    color: #BFC094;
-    text-decoration: none;
+    font-family: "Roboto Serif", serif;
+}
+
+div .button1 {
+    height: 30px;
+}
+
+
+div p {
+    margin-top: 5%;
+    width: 55%;
+    font-size: 40px;
+    font-family: "Exile", system-ui;
+    height: 120px;
 }
 
 div a {
     text-decoration: none;
-    color: #966551 ;
+    color: brown;
+    font-family: "Roboto Serif", serif;
 }
 
-.beauty {
-    font-size: 50px;
-    text-align: center;
+div a:hover {
+    color: blue;
+    font-family: "Exile", system-ui; 
 }
 
-.beauty button {
-    background-color: transparent;
-    border-radius: 20px;
-    padding: 20px;
-    padding: 0.5rem 4rem;
-}
+/* html{
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+} */
 
-.images {
-    width:500px;
-    /* position: absolute;
-    top: 2px;
-    right: 0; */
-}
-
-.top-content{
+.about {
+    /* width: 50%; */
+    height: 70vh;
     display: flex;
-    flex-direction: column;
-    /* margin-left: 10px; */
-    /* justify-content: space-around; */
+    flex-direction: row;
     align-items: center;
+    margin-left: 5%;
+    margin-top: 20px;
 }
 
-
-.new-button {
-    margin-left: 260px;
-    padding: 10px;
-    background-color: transparent;
+.about-image {
     border-radius: 10px;
-    border-color: #966551;
-    
+    height: 300px;
+    margin: 50px;
+}
+
+.about-text {
+    width: 50%;
+    height: 350px;
+    line-height: 2;
+}
+
+.about-h1 {
+    color: brown;
+    font-size: 40px;
+    font-family: "Exile", system-ui;
+    /* height: 10px; */
+}
+
+.about-h3 {
+    font-family: "Roboto Serif", serif;
+    font-size: 18px;
 }
