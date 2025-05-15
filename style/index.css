@@ -92,7 +92,7 @@ div .button1 {
 }
 
 
-div p {
+div .b-text {
     margin-top: 5%;
     width: 55%;
     font-size: 40px;
@@ -130,6 +130,7 @@ div a:hover {
     border-radius: 10px;
     height: 300px;
     margin: 50px;
+    box-shadow: 4px 5px 5px 0px ;
 }
 
 .about-text {
@@ -148,4 +149,50 @@ div a:hover {
 .about-h3 {
     font-family: "Roboto Serif", serif;
     font-size: 18px;
+}
+
+.pricing-container {
+    display: flex;
+    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.photo1 {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 5px 0px ;
+}
+
+.pictures {
+    /* background-color: rgb(102, 98, 98); */
+    /* border: 1px solid rgb(53, 31, 31); */
+    border-radius: 10px;
+    padding: 20px;
+    height: 750px;
+    margin: 2%;
+
+}
+
+.pricing-container li {
+    list-style-type: square;
+    line-height: 2;
+}
+
+.pricing-container h3 {
+    line-height: 2;
+    font-family: "Exile", system-ui;
+}
+
+.pricing-container p {
+    line-height: 1.5;
+    margin-top: 5%;
+}
+
+.pricing-container h1 {
+    margin-bottom: 5%;
+    font-family: "Roboto Serif", serif;
+}
+
+.pictures a {
+   
 }
