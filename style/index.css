@@ -115,6 +115,14 @@ div a:hover {
     scroll-behavior: smooth;
     scrollbar-width: none;
 } */
+ .about {
+    /* background-image: url(../images/bg6.jpg); */
+    background-size: cover;
+    background-position: center;
+    margin-right: 10%;
+ }
+
+
 
 .about {
     /* width: 50%; */
@@ -124,6 +132,7 @@ div a:hover {
     align-items: center;
     margin-left: 5%;
     margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .about-image {
@@ -134,6 +143,7 @@ div a:hover {
 }
 
 .about-text {
+    /* color: white; */
     width: 50%;
     height: 350px;
     line-height: 2;
@@ -151,6 +161,13 @@ div a:hover {
     font-size: 18px;
 }
 
+.pricing {
+    /* background-image: url(../images/photo2.jpg); */
+    background-size: cover;
+    background-position: center;
+    /* margin-top: 2px; */
+}
+
 .pricing-container {
     display: flex;
     flex-direction: row;
@@ -164,35 +181,147 @@ div a:hover {
 }
 
 .pictures {
+    
     /* background-color: rgb(102, 98, 98); */
     /* border: 1px solid rgb(53, 31, 31); */
     border-radius: 10px;
     padding: 20px;
-    height: 750px;
+    height: 100%;
     margin: 2%;
 
 }
 
 .pricing-container li {
+    /* color: white; */
+    margin-left: 6.5%;
     list-style-type: square;
     line-height: 2;
 }
 
 .pricing-container h3 {
+    /* color: white; */
     line-height: 2;
     font-family: "Exile", system-ui;
 }
 
 .pricing-container p {
+    /* color: white; */
     line-height: 1.5;
-    margin-top: 5%;
+    margin-top: 5px;
 }
 
 .pricing-container h1 {
-    margin-bottom: 5%;
+    /* color: white; */
+    margin-top: 10px;
+    /* margin-bottom: 5px; */
     font-family: "Roboto Serif", serif;
 }
 
-.pictures a {
-   
+.Portfolio-p {
+    background-image: url(../images/camera4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+}
+
+.Portfolio-p h1 {
+    font-size: 100px;
+    color: white;
+    margin-top: 100px;
+    height: 120px;
+}
+
+.Portfolio-p .Portfolio-b {
+    background-color: transparent;
+    border-radius: 40px;
+    padding: 40px;
+    font-size: 40px;
+    font-weight: bolder;
+    height: 180px;
+}
+
+.Portfolio-p h2 {
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+form {
+    width: 10%;
+}
+
+.input-field {
+    padding: 5px;
+    font-size: 15px;
+}
+
+.forms button {
+    margin-left: 6px;
+}
+.form-b {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 15px;
+    /* height: 1px; */
+}
+
+.info-section {
+    background-color: black;
+    background-image: url(../images/photo2.jpg);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    line-height: 1.5;
+
+}
+
+.info-section h1 {
+    font-size: 30px;
+    width: 58%;
+    color: brown;
+}
+
+.info-text {
+    width: 58%;
+}
+
+.info-boxt {
+    line-height: 1.7;
+    font-weight: bolder;
+    color: aqua;
+}
+
+.sign-up {
+    line-height: 1.5;
+    color: aliceblue;
+    border: 1px solid brown;
+    font-weight: bolder;
+    width: 73%;
+    max-width: 600px;
+}
+.info-input {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 10px;
+}
+
+.infop {
+    display: flex;
+    gap: 100px
+}
+
+.contact-c {
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    background-color: #8D8D79;
+    height: 20px;
+    justify-content: center;
+    color: white;
 }
